@@ -1,5 +1,5 @@
 footer{
-    background-color: #777e84;
+    background-color: #091622;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -7,9 +7,11 @@ footer{
     align-items: center;
     color: #fff;
     position: relative;
+    margin-top: 100px;
 }
 footer h3{
     font-weight: 300;
+    color: #5b6670;
 
 }
 footer h4{
@@ -17,5 +19,6 @@ footer h4{
     bottom: 3px;
     font-size: 12px;
     font-weight: 200;
-    color: #152431;
+    color: #5b6670;
 }
+
