@@ -1,0 +1,21 @@
+footer{
+    background-color: #777e84;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+footer h3{
+    font-weight: 300;
+
+}
+footer h4{
+    position: absolute;
+    bottom: 3px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #152431;
+}

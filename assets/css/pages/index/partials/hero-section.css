@@ -1,0 +1,59 @@
+.hero-section{
+    background-image: url(/assets/imgs/index/photo.png);
+    background-size: cover;
+}
+
+.hero-content{
+    margin-top: 80px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+.hero-content .text-box{
+    width: 300px;
+}
+.hero-content .title-contrast{
+    font-size: 12px;
+    display: inline-block;
+    background-color: #0000004f;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.hero-description{
+    font-size: 12px;
+    font-weight: 200;
+}
+.hero-creator{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+@media (min-width: 768px){
+    .hero-content .text-box{
+        width: 600px;
+        margin-left: 10%;
+    }
+    .hero-content .text-box h1{
+        font-size: 50px;
+    }
+
+    .hero-content .title-contrast{
+        font-size: 14px;
+        display: inline-block;
+        background-color: #0000004f;
+        padding: 2px 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+    .hero-content{
+        justify-content: start;
+        
+    }
+}
+
