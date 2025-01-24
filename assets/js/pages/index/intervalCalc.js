@@ -1,6 +1,6 @@
 // Variaveis Globais
-const valorTempo = document.querySelector('.date-minutes-value');
-const unidadeDeMedida = document.querySelector('.date-minutes-value-uniMed')
+const valorTempo = document.querySelectorAll('.date-minutes-value');
+const unidadeDeMedida = document.querySelectorAll('.date-minutes-value-uniMed');
 const dataInicial = new Date('2025-01-20T22:00:00');
 const dataHoje = new Date();
 
@@ -77,6 +77,12 @@ function intervalTime(dataAtual, dataInicial){
 console.log(intervalTime(dataHoje, dataInicial));
 const tempo = intervalTime(dataHoje, dataInicial);
 
-valorTempo.innerHTML = tempo[0];
-unidadeDeMedida.innerHTML = tempo[1];
+// melhoria no algoritimo
+for (let i in valorTempo){
+    valorTempo[i].innerHTML = tempo[0];
+}
+
+for (let i in unidadeDeMedida){
+    unidadeDeMedida[i].innerHTML = tempo[1];
+}
 

@@ -14,10 +14,32 @@ main article{
 main article p{
     margin: 10px 0;
 } 
-
+/* nova implementação */
+.article-author{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.name-user{
+    color: #0019fd;
+    font-weight: 500;
+}
+.box-author-name{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.box-author-name p{
+    margin: 0;
+}
+/* fim da nova implementação */
 @media (min-width: 768px){
     main#main-article{
-        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-columns: 1fr 3fr 2fr;
     }
     .date-publi{
         display: block;
